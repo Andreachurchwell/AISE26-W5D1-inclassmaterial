@@ -24,9 +24,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Run tests
+    - name: Run all tests
       run: |
-        pytest tests/test_calculator_pass.py -v
+       pytest tests/test_calculator_pass.py tests/test_calculator_fail.py -v
+
         
     - name: Run linter
       run: |

@@ -38,18 +38,18 @@ class TestEdgeCases:
 
 # TODO: Uncomment these tests once you implement the missing functions!
 
-# class TestMissingFunctions:
-#     """Tests for functions that need to be implemented"""
-#     
-#     def test_square_root(self):
-#         """Test square root function (need to implement!)"""
-#         from calculator import square_root
-#         assert square_root(16) == 4
-#         assert square_root(25) == 5
-#         
-#     def test_absolute_value(self):
-#         """Test absolute value function (need to implement!)"""
-#         from calculator import absolute
-#         assert absolute(-5) == 5
-#         assert absolute(5) == 5
+class TestMissingFunctions:
+    """Tests for functions that need to be implemented"""
+    
+    def test_square_root(self):
+        """Test square root function (need to implement!)"""
+        from calculator import square_root
+        assert square_root(16) == 4
+        assert square_root(25) == 5
+        
+    def test_absolute_value(self):
+        """Test absolute value function (need to implement!)"""
+        from calculator import absolute
+        assert absolute(-5) == 5
+        assert absolute(5) == 5
 

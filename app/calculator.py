@@ -38,6 +38,17 @@ def modulo(a, b):
     return a % b
 
 
+def square_root(x):
+    """Return the square root of x. Raise ValueError for negatives."""
+    if x < 0:
+        raise ValueError("Cannot take square root of negative")
+    return x ** 0.5
+
+def absolute(x):
+    """Return the absolute value of x."""
+    return x if x >= 0 else -x
+
+
 def main():
     """Demo the calculator functions"""
     print("Calculator Demo")
