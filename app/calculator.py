@@ -44,6 +44,7 @@ def square_root(x):
         raise ValueError("Cannot take square root of negative")
     return x ** 0.5
 
+
 def absolute(x):
     """Return the absolute value of x."""
     return x if x >= 0 else -x
@@ -62,4 +63,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
